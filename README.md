@@ -14,7 +14,7 @@ mv ~/.local/state/nvim{,.bak}
 mv ~/.cache/nvim{,.bak}
 
 # get new config
-git clone https://github.com/bharathulaganathan/nvim ~/.config/nvim
+git clone https://github.com/bharathulaganathan/neovim ~/.config/nvim
 ```
 
 ### 🪁 Windows
@@ -25,7 +25,7 @@ Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
 Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
 
 # get new config
-git clone https://github.com/bharathulaganathan/nvim $env:LOCALAPPDATA\nvim
+git clone https://github.com/bharathulaganathan/neovim $env:LOCALAPPDATA\nvim
 ```
 
 ## Requirements
