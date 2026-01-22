@@ -92,21 +92,14 @@ cargo install bottom --locked
 
 ## Setting alias
 
-### LazyVim
-
 ```sh
+# LazyVim
 alias lazyvim="NVIM_APPNAME=nvim/lazyvim nvim"
-```
 
-### AstroNvim
-
-```sh
+# AstroNvim
 alias astronvim="NVIM_APPNAME=nvim/astronvim nvim"
-```
 
-### NvChad
-
-```sh
+# NvChad
 alias nvchad="NVIM_APPNAME=nvim/nvchad nvim"
 ```
 
