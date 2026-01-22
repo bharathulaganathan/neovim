@@ -1,4 +1,4 @@
-# 💤 Neovim configs modified by Bharath
+# 💤 Neovim combined configs
 
 Neovim configs for [LazyVim](https://www.lazyvim.org/), [AstroNvim](https://astronvim.com/), [NvChad](https://nvchad.com/) and my own config (maybe).
 
