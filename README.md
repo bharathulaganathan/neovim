@@ -35,7 +35,7 @@ rm -rf .tmp
 cargo install --locked tree-sitter-cli
 
 # Lazygit fzf ripgrep fd
-sudo pacman -S lazygit fzf  ripgrep fd
+sudo pacman -S lazygit fzf ripgrep fd
 
 # go DiskUsage() bottom for Astronvim
 sudo pacman -S gdu bottom
@@ -169,6 +169,7 @@ git clone https://github.com/NvChad/starter ~/.config/nvim/nvchad
 # optional
 rm -rf ~/.config/nvim/nvchad/.git
 ```
+
 
 
 
