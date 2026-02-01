@@ -14,6 +14,7 @@ sudo pacman -S neovim
 sudo pacman -S git tar curl
 # rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+. "$HOME/.cargo/env"
 # python npm go node
 sudo pacman -S python npm go nodejs
 # clang gcc make cmake
@@ -178,4 +179,5 @@ git clone https://github.com/NvChad/starter ~/.config/nvim/nvchad
 # optional
 rm -rf ~/.config/nvim/nvchad/.git
 ```
+
 
