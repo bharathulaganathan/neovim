@@ -21,6 +21,7 @@ sudo pacman -S python npm go nodejs
 sudo pacman -S clang gcc make cmake
 
 # Nerd Font
+sudo pacman -S fontconfig
 mkdir .tmp
 curl -L --output-dir ".tmp" -O  https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip
 curl -L --output-dir ".tmp" -O  https://github.com/ryanoasis/nerd-fonts/releases/latest/download/Hack.zip
@@ -179,5 +180,6 @@ git clone https://github.com/NvChad/starter ~/.config/nvim/nvchad
 # optional
 rm -rf ~/.config/nvim/nvchad/.git
 ```
+
 
 
