@@ -37,8 +37,8 @@ cargo install --locked tree-sitter-cli
 # lazygit fzf ripgrep fd
 sudo pacman -S lazygit fzf ripgrep fd luarocks
 
-# magick
-sudo pacman -S imagemagick tectonic 
+# snacks.image
+sudo pacman -S imagemagick ghostscript tectonic mermaid-cli
 
 # go DiskUsage() bottom for Astronvim
 sudo pacman -S gdu bottom
@@ -172,6 +172,7 @@ git clone https://github.com/NvChad/starter ~/.config/nvim/nvchad
 # optional
 rm -rf ~/.config/nvim/nvchad/.git
 ```
+
 
 
 
