@@ -41,7 +41,7 @@ cargo install --locked tree-sitter-cli
 # fzf
 sudo pacman -S fzf
 # ripgrep
-$ sudo pacman -S ripgrep
+sudo pacman -S ripgrep
 # fd
 sudo pacman -S fd
 
@@ -180,6 +180,7 @@ git clone https://github.com/NvChad/starter ~/.config/nvim/nvchad
 # optional
 rm -rf ~/.config/nvim/nvchad/.git
 ```
+
 
 
 
