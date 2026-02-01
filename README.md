@@ -15,7 +15,7 @@ sudo pacman -S git tar curl
 # rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 . "$HOME/.cargo/env"
-# python npm go node
+# python npm go node lua
 sudo pacman -S python npm go nodejs
 # clang gcc make cmake
 sudo pacman -S clang gcc make cmake
@@ -34,8 +34,11 @@ rm -rf .tmp
 # treesitter
 cargo install --locked tree-sitter-cli
 
-# Lazygit fzf ripgrep fd
-sudo pacman -S lazygit fzf ripgrep fd
+# lazygit fzf ripgrep fd
+sudo pacman -S lazygit fzf ripgrep fd luarocks
+
+# magick
+sudo pacman -S imagemagick 
 
 # go DiskUsage() bottom for Astronvim
 sudo pacman -S gdu bottom
@@ -169,6 +172,7 @@ git clone https://github.com/NvChad/starter ~/.config/nvim/nvchad
 # optional
 rm -rf ~/.config/nvim/nvchad/.git
 ```
+
 
 
 
