@@ -31,25 +31,14 @@ unzip .tmp/Hack.zip -d ~/.local/share/fonts/Hack
 fc-cache -f -v
 rm -rf .tmp
 
-# Lazygit
-sudo pacman -S lazygit
-
 # treesitter
 cargo install --locked tree-sitter-cli
 
-# fzf-lua
-# fzf
-sudo pacman -S fzf
-# ripgrep
-sudo pacman -S ripgrep
-# fd
-sudo pacman -S fd
+# Lazygit fzf ripgrep fd
+sudo pacman -S lazygit fzf  ripgrep fd
 
-# go DiskUsage()
-sudo pacman -S gdu
-
-# bottom
-sudo pacman -S bottom
+# go DiskUsage() bottom for Astronvim
+sudo pacman -S gdu bottom
 
 # Clipboard integration
 # https://neovim.io/doc/user/provider.html#clipboard-tool
@@ -180,6 +169,7 @@ git clone https://github.com/NvChad/starter ~/.config/nvim/nvchad
 # optional
 rm -rf ~/.config/nvim/nvchad/.git
 ```
+
 
 
 
