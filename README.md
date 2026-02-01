@@ -15,7 +15,7 @@ sudo pacman -S git tar curl
 # rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 . "$HOME/.cargo/env"
-# python node npm go lua
+# python node npm go lua lua51
 sudo pacman -S python nodejs npm go lua
 # clang gcc make cmake
 sudo pacman -S clang gcc make cmake
@@ -173,6 +173,7 @@ git clone https://github.com/NvChad/starter ~/.config/nvim/nvchad
 # optional
 rm -rf ~/.config/nvim/nvchad/.git
 ```
+
 
 
 
