@@ -15,8 +15,8 @@ sudo pacman -S git tar curl
 # rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 . "$HOME/.cargo/env"
-# python npm go node lua
-sudo pacman -S python npm go nodejs
+# python node npm go lua
+sudo pacman -S python nodejs npm go lua
 # clang gcc make cmake
 sudo pacman -S clang gcc make cmake
 
@@ -34,7 +34,7 @@ rm -rf .tmp
 # treesitter
 cargo install --locked tree-sitter-cli
 
-# lazygit fzf ripgrep fd
+# lazygit fzf ripgrep fd luarocks
 sudo pacman -S lazygit fzf ripgrep fd luarocks
 
 # snacks.image
@@ -47,6 +47,7 @@ sudo pacman -S gdu bottom
 # https://neovim.io/doc/user/provider.html#clipboard-tool
 
 # Install a terminal
+sudo pacman -S kitty wezterm ghostty
 ```
 
 ### Direct Install
@@ -172,6 +173,7 @@ git clone https://github.com/NvChad/starter ~/.config/nvim/nvchad
 # optional
 rm -rf ~/.config/nvim/nvchad/.git
 ```
+
 
 
 
