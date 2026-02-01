@@ -2,48 +2,60 @@
 
 Neovim configs for [LazyVim](https://www.lazyvim.org/), [AstroNvim](https://astronvim.com/), [NvChad](https://nvchad.com/) and my own config (maybe).
 
-## Installation
-
-### 🐧 Linux
-
-```sh
-# backup current config
-mv ~/.config/nvim{,.bak}
-mv ~/.local/share/nvim{,.bak}
-mv ~/.local/state/nvim{,.bak}
-mv ~/.cache/nvim{,.bak}
-
-# get new config
-git clone https://github.com/bharathulaganathan/neovim ~/.config/nvim
-```
-
-### 🪁 Windows
-
-```powershell
-# backup current config
-Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
-Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
-
-# get new config
-git clone https://github.com/bharathulaganathan/neovim $env:LOCALAPPDATA\nvim
-```
-
 ## Requirements
 
-### Distro specific
+### Arch Linux
 
 ```sh
-# curl git unzip tar
-sudo pacman -S curl git unzip tar
-# python npm go
-sudo pacman -S python npm go
+# Neovim
+sudo pacman -S neovim
+
+# git tar curl
+sudo pacman -S git tar curl
 # rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# python npm go node
+sudo pacman -S python npm go nodejs
 # clang gcc make cmake
 sudo pacman -S clang gcc make cmake
+
+# Nerd Font
+mkdir .tmp
+curl -L --output-dir ".tmp" -O  https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip
+curl -L --output-dir ".tmp" -O  https://github.com/ryanoasis/nerd-fonts/releases/latest/download/Hack.zip
+mkdir -p ~/.local/share/fonts/
+unzip .tmp/JetBrainsMono.zip -d ~/.local/share/fonts/JetBrainsMono
+unzip .tmp/Hack.zip -d ~/.local/share/fonts/Hack
+fc-cache -f -v
+rm -rf .tmp
+
+# Lazygit
+sudo pacman -S lazygit
+
+# treesitter
+cargo install --locked tree-sitter-cli
+
+# fzf-lua
+# fzf
+sudo pacman -S fzf
+# ripgrep
+$ sudo pacman -S ripgrep
+# fd
+sudo pacman -S fd
+
+# go DiskUsage()
+sudo pacman -S gdu
+
+# bottom
+sudo pacman -S bottom
+
+# Clipboard integration
+# https://neovim.io/doc/user/provider.html#clipboard-tool
+
+# Install a terminal
 ```
 
-### General
+### Direct Install
 
 ```sh
 # Neovim
@@ -88,6 +100,32 @@ cargo install bottom --locked
 # https://neovim.io/doc/user/provider.html#clipboard-tool
 
 # Install a terminal
+```
+
+## Installation
+
+### 🐧 Linux
+
+```sh
+# backup current config
+mv ~/.config/nvim{,.bak}
+mv ~/.local/share/nvim{,.bak}
+mv ~/.local/state/nvim{,.bak}
+mv ~/.cache/nvim{,.bak}
+
+# get new config
+git clone https://github.com/bharathulaganathan/neovim ~/.config/nvim
+```
+
+### 🪁 Windows
+
+```powershell
+# backup current config
+Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
+Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
+
+# get new config
+git clone https://github.com/bharathulaganathan/neovim $env:LOCALAPPDATA\nvim
 ```
 
 ## Setting alias
@@ -140,3 +178,4 @@ git clone https://github.com/NvChad/starter ~/.config/nvim/nvchad
 # optional
 rm -rf ~/.config/nvim/nvchad/.git
 ```
+
