@@ -35,6 +35,8 @@ vim.opt.mouse = "a"
 vim.opt.completeopt = "menuone,noselect"
 vim.opt.iskeyword:append("-")
 
+vim.opt.winborder = "rounded"
+
 vim.api.nvim_create_autocmd("FileType", {
   pattern = "*",
   callback = function()

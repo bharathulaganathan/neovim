@@ -7,7 +7,12 @@
     -- tree-sitter-cli (https://github.com/tree-sitter/tree-sitter/tree/master/crates/cli)
     -- C compiler
 
-local languages = {'bash', 'c', 'csv', 'gitignore', 'html', 'javascript', 'jinja', 'jinja_inline', 'json', 'lua', 'markdown', 'markdown_inline', 'powershell', 'python', 'r', 'rust', 'sql', 'toml', 'tsv', 'vim', 'zsh'}
+-- Languages ( https://github.com/nvim-treesitter/nvim-treesitter/blob/main/SUPPORTED_LANGUAGES.md )
+local languages = {
+    'bash', 'c', 'css', 'csv', 'diff', 'gitcommit', 'gitignore', 'html', 'javascript',
+    'jinja', 'jinja_inline', 'json', 'lua', 'markdown', 'markdown_inline', 'powershell',
+    'python', 'r', 'regex', 'rust', 'sql', 'toml', 'tsv', 'vim', 'yaml', 'zsh',
+}
 
 return {
     'nvim-treesitter/nvim-treesitter',
@@ -16,7 +21,6 @@ return {
 
     config = function()
 
-        -- Languages (https://github.com/nvim-treesitter/nvim-treesitter/blob/main/SUPPORTED_LANGUAGES.md)
         require'nvim-treesitter'.install(languages)
 
         -- Highlighting
@@ -31,8 +35,8 @@ return {
         vim.api.nvim_create_autocmd('FileType', {
             pattern = languages,
             callback = function()
-                vim.wo[0][0].foldexpr = 'v:lua.vim.treesitter.foldexpr()'
-                vim.wo[0][0].foldmethod = 'expr'
+                -- vim.wo[0][0].foldexpr = 'v:lua.vim.treesitter.foldexpr()'
+                -- vim.wo[0][0].foldmethod = 'expr'
             end,
         })
         
