@@ -1,0 +1,3 @@
+[submodule "myvim/lua/plugins/github_theme_palette"]
+	path = myvim/lua/plugins/github_theme_palette
+	url = https://github.com/bharathulaganathan/github_theme_palette.git
