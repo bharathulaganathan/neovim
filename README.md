@@ -146,22 +146,12 @@ done
 
 ## Fresh Install (Optional)
 
-### Backup
-
-```sh
-rm -rf ~/.config/nvim.bak
-rm -rf ~/.local/share/nvim.bak
-rm -rf ~/.local/state/nvim.bak
-rm -rf ~/.cache/nvim.bak
-mv ~/.config/nvim{,.bak}
-mv ~/.local/share/nvim{,.bak}
-mv ~/.local/state/nvim{,.bak}
-mv ~/.cache/nvim{,.bak}
-```
-
 ### [LazyVim](https://www.lazyvim.org/installation)
 
 ```sh
+rm -rf ~/.config/nvim.bak/lazyvim
+mkdir ~/.config/nvim.bak
+mv ~/.config/nvim/lazyvim ~/.config/nvim.bak/lazyvim
 git clone https://github.com/LazyVim/starter ~/.config/nvim/lazyvim
 
 # optional
@@ -171,6 +161,9 @@ rm -rf ~/.config/nvim/lazyvim/.git
 ### [AstroNvim](https://docs.astronvim.com/#-installation)
 
 ```sh
+rm -rf ~/.config/nvim.bak/astronvim
+mkdir ~/.config/nvim.bak
+mv ~/.config/nvim/astronvim ~/.config/nvim.bak/astronvim
 git clone --depth 1 https://github.com/AstroNvim/template ~/.config/nvim/astronvim
 
 # optional
@@ -180,6 +173,9 @@ rm -rf ~/.config/nvim/astronvim/.git
 ### [NvChad](https://nvchad.com/docs/quickstart/install)
 
 ```sh
+rm -rf ~/.config/nvim.bak/nvchad
+mkdir ~/.config/nvim.bak
+mv ~/.config/nvim/nvchad ~/.config/nvim.bak/nvchad
 git clone https://github.com/NvChad/starter ~/.config/nvim/nvchad
 
 # optional
@@ -589,3 +585,4 @@ rm -rf ~/.config/nvim/nvchad/.git
 ### TODO FIND
 
 - Rainbow Parentheses
+
