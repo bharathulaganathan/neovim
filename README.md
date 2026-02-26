@@ -103,6 +103,10 @@ cargo install bottom --locked
 
 ```sh
 # backup current config
+rm -rf ~/.config/nvim.bak
+rm -rf ~/.local/share/nvim.bak
+rm -rf ~/.local/state/nvim.bak
+rm -rf ~/.cache/nvim.bak
 mv ~/.config/nvim{,.bak}
 mv ~/.local/share/nvim{,.bak}
 mv ~/.local/state/nvim{,.bak}
@@ -145,6 +149,10 @@ done
 ### Backup
 
 ```sh
+rm -rf ~/.config/nvim.bak
+rm -rf ~/.local/share/nvim.bak
+rm -rf ~/.local/state/nvim.bak
+rm -rf ~/.cache/nvim.bak
 mv ~/.config/nvim{,.bak}
 mv ~/.local/share/nvim{,.bak}
 mv ~/.local/state/nvim{,.bak}
