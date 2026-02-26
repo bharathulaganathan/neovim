@@ -197,16 +197,19 @@ rm -rf ~/.config/nvim/nvchad/.git
 ### Completion
 
 - [saghen/blink.cmp](https://github.com/saghen/blink.cmp)
+- [hrsh7th/nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 
 ### Syntax
 
 - [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 - [nvim-treesitter/nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects)
 - [nvim-treesitter/nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context)
-- [nvim-mini/mini.nvim#mini.surround](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-surround.md)
+- [kylechui/nvim-surround](https://github.com/kylechui/nvim-surround)
+- [nvim-mini/mini.surround](https://github.com/nvim-mini/mini.surround)
 
 ### Snippet
 
+- [L3MON4D3/LuaSnip](https://github.com/L3MON4D3/LuaSnip)
 - [nvim-mini/mini.nvim#mini.snippets](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-snippets.md)
 
 ### Register
@@ -226,6 +229,7 @@ rm -rf ~/.config/nvim/nvchad/.git
 - [folke/snacks.nvim#picker](https://github.com/folke/snacks.nvim/blob/main/docs/picker.md)
 - [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 - [ibhagwan/fzf-lua](https://github.com/ibhagwan/fzf-lua)
+- [MagicDuck/grug-far.nvim](https://github.com/MagicDuck/grug-far.nvim)
 - [nvim-mini/mini.nvim#mini.fuzzy](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-fuzzy.md)
 - [nvim-mini/mini.nvim#mini.pick](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-pick.md)
 - [nvim-mini/mini.nvim#mini.extra](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-extra.md)
@@ -235,6 +239,7 @@ rm -rf ~/.config/nvim/nvchad/.git
 - [nvim-neo-tree/neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)
 - [folke/snacks.nvim#explorer](https://github.com/folke/snacks.nvim/blob/main/docs/explorer.md)
 - [mikavilpas/yazi.nvim](https://github.com/mikavilpas/yazi.nvim)
+- [stevearc/oil.nvim](https://github.com/stevearc/oil.nvim)
 - [nvim-mini/mini.nvim#mini.files](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-files.md)
 - [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
 
@@ -316,9 +321,38 @@ rm -rf ~/.config/nvim/nvchad/.git
 - [nvim-mini/mini.nvim#mini.icons](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-icons.md)
 
 ### Media
+
+- [3rd/image.nvim](https://github.com/3rd/image.nvim)
+- [adelarsq/image_preview.nvim](https://github.com/adelarsq/image_preview.nvim)
+- [edluffy/hologram.nvim](https://github.com/edluffy/hologram.nvim)
+- [HakonHarnes/img-clip.nvim](https://github.com/HakonHarnes/img-clip.nvim)
+- [ekickx/clipboard-image.nvim](https://github.com/ekickx/clipboard-image.nvim)
+- [niuiic/code-shot.nvim](https://github.com/niuiic/code-shot.nvim)
+
 ### Note Taking
+
+- [nvim-neorg/neorg](https://github.com/nvim-neorg/neorg)
+- [nvim-orgmode/orgmode](https://github.com/nvim-orgmode/orgmode)
+- [obsidian-nvim/obsidian.nvim](https://github.com/obsidian-nvim/obsidian.nvim)
+- [nvim-telekasten/telekasten.nvim](https://github.com/nvim-telekasten/telekasten.nvim)
+- [jbyuki/venn.nvim](https://github.com/jbyuki/venn.nvim)
+- [jakewvincent/mkdnflow.nvim](https://github.com/jakewvincent/mkdnflow.nvim)
+
 ### Utility
+
+- [folke/snacks.nvim](https://github.com/folke/snacks.nvim)
+- [nvim-mini/mini.nvim](https://github.com/nvim-mini/mini.nvim)
+- [folke/noice.nvim](https://github.com/folke/noice.nvim)
+- [jbyuki/instant.nvim](https://github.com/jbyuki/instant.nvim)
+- [nvzone/showkeys](https://github.com/nvzone/showkeys)
+- [nvzone/menu](https://github.com/nvzone/menu)
+- [axieax/urlview.nvim](https://github.com/axieax/urlview.nvim)
+- [mistricky/codesnap.nvim](https://github.com/mistricky/codesnap.nvim) 
+- [glyccogen/imprint.nvim](https://github.com/glyccogen/imprint.nvim)
+
 ### CSV Files
+
+- [hat0uma/csvview.nvim](https://github.com/hat0uma/csvview.nvim)
 
 ### Animation
 
@@ -332,6 +366,7 @@ rm -rf ~/.config/nvim/nvchad/.git
 ### Terminal
 
 - [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
+- [nvzone/floaterm](https://github.com/nvzone/floaterm)
 - [willothy/flatten.nvim](https://github.com/willothy/flatten.nvim)
 - [numToStr/FTerm.nvim](https://github.com/numToStr/FTerm.nvim)
 - [kassio/neoterm](https://github.com/kassio/neoterm)
@@ -394,12 +429,13 @@ rm -rf ~/.config/nvim/nvchad/.git
 ### Git
 
 - [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
+- [akinsho/git-conflict.nvim](https://github.com/akinsho/git-conflict.nvim)
+- [sindrets/diffview.nvim](https://github.com/sindrets/diffview.nvim)
+- [kdheepak/lazygit.nvim](https://github.com/kdheepak/lazygit.nvim)
 - [f-person/git-blame.nvim](https://github.com/f-person/git-blame.nvim)
 - [nvim-mini/mini.nvim#mini.diff](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-diff.md)
 - [nvim-mini/mini.nvim#mini.git](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-git.md)
 - [NeogitOrg/neogit](https://github.com/NeogitOrg/neogit)
-- [sindrets/diffview.nvim](https://github.com/sindrets/diffview.nvim)
-- [kdheepak/lazygit.nvim](https://github.com/kdheepak/lazygit.nvim)
 - [esmuellert/codediff.nvim](https://github.com/esmuellert/codediff.nvim)
 
 ### GitHub
@@ -408,12 +444,12 @@ rm -rf ~/.config/nvim/nvchad/.git
 
 ### Motion
 
-- [ggandor/leap.nvim](https://github.com/ggandor/leap.nvim)
 - [folke/flash.nvim](https://github.com/folke/flash.nvim)
+- [ggandor/leap.nvim](https://github.com/ggandor/leap.nvim)
+- [smoka7/hop.nvim](https://github.com/smoka7/hop.nvim)
 - [tris203/precognition.nvim](https://github.com/tris203/precognition.nvim)
 - [abecodes/tabout.nvim](https://github.com/abecodes/tabout.nvim)
 - [chrisgrieser/nvim-spider](https://github.com/chrisgrieser/nvim-spider)
-- [smoka7/hop.nvim](https://github.com/smoka7/hop.nvim)
 - [aaronik/Treewalker.nvim](https://github.com/aaronik/Treewalker.nvim)
 - [nvim-mini/mini.nvim#mini.jump](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-jump.md)
 - [nvim-mini/mini.nvim#mini.jump2d](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-jump2d.md)
@@ -439,12 +475,31 @@ rm -rf ~/.config/nvim/nvchad/.git
 
 ### [Editing Support](https://github.com/rockerBOO/awesome-neovim?tab=readme-ov-file#editing-support)
 
-- # TODO
+- [nguyenvukhang/nvim-toggler](https://github.com/nguyenvukhang/nvim-toggler)
+- [windwp/nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag)
+- [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs)
+- [nvim-mini/mini.nvim#mini.pairs](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-pairs.md)
+- [monaqa/dial.nvim](https://github.com/monaqa/dial.nvim)
+- [folke/zen-mode.nvim](https://github.com/folke/zen-mode.nvim)
+- [nvim-mini/mini.nvim#mini.trailspace](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-trailspace.md)
+- [nvim-mini/mini.nvim#mini.operators](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-operators.md)
+- [nvim-mini/mini.nvim#mini.move](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-move.md)
+- [nvim-mini/mini.nvim#mini.ai](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-ai.md)
+- [Wansmer/treesj](https://github.com/Wansmer/treesj)
+- [nvim-mini/mini.nvim#mini.splitjoin](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-splitjoin.md)
+- [nvim-mini/mini.nvim#mini.basics](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-basics.md)
+- [tomiis4/hypersonic.nvim](https://github.com/tomiis4/hypersonic.nvim)
+- [nat-418/boole.nvim](https://github.com/nat-418/boole.nvim)
+- [nemanjamalesija/smart-paste.nvim](https://github.com/nemanjamalesija/smart-paste.nvim)
+- [XXiaoA/atone.nvim](https://github.com/XXiaoA/atone.nvim)
+- [debugloop/telescope-undo.nvim](https://github.com/debugloop/telescope-undo.nvim)
+- [jake-stewart/multicursor.nvim](https://github.com/jake-stewart/multicursor.nvim)
 
 ### Comment
 
 - [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim)
 - [folke/todo-comments.nvim](https://github.com/folke/todo-comments.nvim)
+- [folke/ts-comments.nvim](https://github.com/folke/ts-comments.nvim)
 - [danymat/neogen](https://github.com/danymat/neogen)
 - [JoosepAlviste/nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring)
 - [nvim-mini/mini.nvim#mini.comment](https://github.com/nvim-mini/mini.nvim/blob/main/readmes/mini-comment.md)
@@ -510,6 +565,7 @@ rm -rf ~/.config/nvim/nvchad/.git
 - [gisketch/triforce.nvim](https://github.com/gisketch/triforce.nvim)
 - [aikhe/wrapped.nvim](https://github.com/aikhe/wrapped.nvim)
 - [QuentinGruber/pomodoro.nvim](https://github.com/QuentinGruber/pomodoro.nvim)
+- [nvzone/timerly](https://github.com/nvzone/timerly)
 - [Rtarun3606k/takatime](https://github.com/Rtarun3606k/takatime)
 - [ravsii/timers.nvim](https://github.com/ravsii/timers.nvim)
 
@@ -521,3 +577,7 @@ rm -rf ~/.config/nvim/nvchad/.git
 ### Database
 
 - [kndndrj/nvim-dbee](https://github.com/kndndrj/nvim-dbee)
+
+### TODO FIND
+
+- Rainbow Parentheses
