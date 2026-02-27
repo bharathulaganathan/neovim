@@ -366,12 +366,12 @@ rm -rf ~/.config/nvim/nvchad/.git
 
 ### Terminal
 
+- [folke/snacks.nvim#terminal](https://github.com/folke/snacks.nvim/blob/main/docs/terminal.md)
 - [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
 - [nvzone/floaterm](https://github.com/nvzone/floaterm)
+- 
 - [willothy/flatten.nvim](https://github.com/willothy/flatten.nvim)
-- [numToStr/FTerm.nvim](https://github.com/numToStr/FTerm.nvim)
 - [kassio/neoterm](https://github.com/kassio/neoterm)
-- [folke/snacks.nvim#terminal](https://github.com/folke/snacks.nvim/blob/main/docs/terminal.md)
 
 ### Debugging
 
